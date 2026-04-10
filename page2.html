@@ -4,20 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>상담 문의</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1, p {
+            text-align: center;
+        }
+
+        input {
+            padding:10px;
+        }
+
+        input[type="reset"]{
+            padding:10px;
+            background-color: rgb(33, 62, 124);
+            color: white;
+        }
+
+        input[type="submit"]{
+            padding:10px;
+            background-color: brown;
+            color: white;
+        }
+
+        select, textarea, input[type="text"], input[type="email"], input[type="tel"] {
+            padding:5px;
+        }
+
+
+    </style>
 </head>
 <body>
+
     <h1>멀티미디어과 선배에게 문의하기</h1>
     <p>수업, 과제, 진로, 동아리 등 궁금한 내용을 남겨보세요.</p>
 
-    <form action="" method="get">
+    <form action="#" method="get">
 
         <div>
-            <label for="username">이름</label>
+            <lable for="username">이름</lable>
             <input type="text" placeholder="이름을 입력하시오." name="username">
         </div>
 
         <div>
-            <label for="student-id">학번</label>
+            <lable for="student-id">학번</lable>
             <input type="text" placeholder="예:20251234" name="student-id">
         </div>
 
@@ -54,7 +86,7 @@
         </div>
 
         <div>
-            <label>답변 받고 싶은 방법</label>
+            <lable>답변 받고 싶은 방법</lable>
             <br>
             <lable><input type="radio" name="reply" value="kakao">카카오톡</label>
             <lable><input type="radio" name="reply" value="email">이메일</label>
@@ -62,25 +94,25 @@
         </div>
 
         <div>
-            <label>문의 제목</label>
-            <input type="text name=title" placeholder="예: 포트폴리오 준비 방법이 궁금해요.">
+            <lable>문의 제목</lable>
+            <input type="text" name="title" placeholder="예: 포트폴리오 준비 방법이 궁금해요.">
         </div>
 
         <div>
-            <label for="content">문의 내용</label>
+            <lable for="content">문의 내용</lable>
             <textarea name="content" placeholder="궁금한 내용을 자세히 작성하세요." rows="6"></textarea>
         </div>
 
         <div>
-            <label for="file">첨부 파일</label>
+            <lable for="file">첨부 파일</lable>
             <input type="file" name="file">
         </div>
 
         <div>
-            <label>
-                <input type="checked" name="agree">
+            <lable>
+                <input type="checkbox" name="agree">
                 개인정보 수집 및 이용에 동의합니다.
-            </label>
+            </lable>
         </div>
         <div>
             <input type="submit" value="문의 보내기">

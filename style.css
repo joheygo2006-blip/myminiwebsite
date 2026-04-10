@@ -1,3 +1,7 @@
+   * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
 nav {
       background-color: #333;
    } 
@@ -5,10 +9,11 @@ nav {
    header {
       background-color: rgb(161, 40, 0);
       text-align: center;
+      padding: 10px;
    }
 
    section {
-      background-color: rgb(255, 244, 244);
+      background-color: rgba(255, 244, 244, 0.758);
    }
 
    footer {
@@ -28,6 +33,18 @@ nav {
       color: white;
    }
 
-   * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   h2 {
+      color:rgb(94, 41, 41);
+   }
+
+   h4 {
+      color:white;
+   }
+
+   .foot-p {
+      color:white;
+   }
+
+   header > p {
+      color:white;
    }
